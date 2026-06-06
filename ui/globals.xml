@@ -1,25 +1,45 @@
 <globals>
-    <api>
-        <!-- Add <enumdefs> here -->
-    </api>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
 
-    <consts>
-        <!-- Add <px>, <int>, <color> etc here -->
-    </consts>
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+	</consts>
 
-    <styles>
-        <!-- Add <style> tags here -->
-    </styles>
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
 
-    <subjects>
-        <!-- Add <int>, <string>, or <float> subjects here -->
-    </subjects>
+	<subjects>
+		<!-- Add <int>, <string>, or <float> subjects here -->
+	</subjects>
 
-    <images>
-        <!-- Add <file> or <data> tags here -->
-    </images>
+	<images>
+		<!-- Add <file> or <data> tags here -->
+	</images>
 
-    <fonts>
-        <!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-    </fonts>
+	<fonts>
+		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+		<tiny_ttf name="orbitron_black_64" size="64" as_file="true" src_path="fonts/Orbitron-VariableFont_wght.ttf" />
+		<tiny_ttf name="orbitron_black_74" size="74" as_file="true" src_path="fonts/Orbitron-VariableFont_wght.ttf" />
+		<tiny_ttf
+			name="lv_font_montserrat_22"
+			size="22"
+			as_file="true"
+			src_path="fonts/Montserrat-VariableFont_wght.ttf"
+		/>
+		<tiny_ttf
+			name="lv_font_montserrat_32"
+			size="32"
+			as_file="true"
+			src_path="fonts/Montserrat-VariableFont_wght.ttf"
+		/>
+		<tiny_ttf
+			name="lv_font_montserrat_48"
+			size="48"
+			as_file="true"
+			src_path="fonts/Montserrat-VariableFont_wght.ttf"
+		/>
+	</fonts>
 </globals>
