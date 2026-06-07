@@ -5,6 +5,8 @@
 
 	<consts>
 		<!-- Add <px>, <int>, <color> etc here -->
+		<color name="black" value="0x000000" />
+		<color name="white" value="0xffffff" />
 	</consts>
 
 	<styles>
@@ -13,6 +15,10 @@
 
 	<subjects>
 		<!-- Add <int>, <string>, or <float> subjects here -->
+		<int name="usage1" value="99" />
+		<int name="usage2" value="9" />
+		<int name="temp1" value="99" />
+		<int name="temp2" value="9" />
 	</subjects>
 
 	<images>
