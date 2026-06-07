@@ -15,10 +15,10 @@
 
 	<subjects>
 		<!-- Add <int>, <string>, or <float> subjects here -->
-		<int name="usage1" value="99" />
-		<int name="usage2" value="9" />
-		<int name="temp1" value="99" />
-		<int name="temp2" value="9" />
+		<int name="cpu_usage" value="0" />
+		<int name="gpu_usage" value="0" />
+		<int name="cpu_temp" value="0" />
+		<int name="gpu_temp" value="0" />
 	</subjects>
 
 	<images>

@@ -12,9 +12,9 @@
 		<style name="style_base" />
 
 		<row width="100%" height="100%">
-			<metric_col title="CPU" usage="usage1" temp="temp1" />
+			<metric_col title="CPU" usage="cpu_usage" temp="cpu_temp" />
 			<div height="100%" width="2" style_bg_color="#black" style_bg_opa="100%" />
-			<metric_col title="GPU" usage="usage2" temp="temp2" />
+			<metric_col title="GPU" usage="gpu_usage" temp="gpu_temp" />
 		</row>
 	</view>
 </component>
