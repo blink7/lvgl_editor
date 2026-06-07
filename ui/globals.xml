@@ -49,9 +49,18 @@
 			as_file="false"
 			src_path="fonts/Orbitron-Bold.ttf"
 			bpp="1"
+			range=""
 			symbols="°C"
 		/>
-		<bin name="orbitron_bold_46" size="46" as_file="false" src_path="fonts/Orbitron-Bold.ttf" bpp="1" symbols="%" />
+		<bin
+			name="orbitron_bold_46"
+			size="46"
+			as_file="false"
+			src_path="fonts/Orbitron-Bold.ttf"
+			bpp="1"
+			range=""
+			symbols="%"
+		/>
 		<bin
 			name="orbitron_semibold_48"
 			size="48"
