@@ -27,28 +27,38 @@
 
 	<fonts>
 		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-		<tiny_ttf name="orbitron_black_64" size="64" as_file="true" src_path="fonts/Orbitron-Black.ttf" />
-		<tiny_ttf name="orbitron_black_74" size="74" as_file="true" src_path="fonts/Orbitron-Black.ttf" />
-		<tiny_ttf name="orbitron_bold_40" size="40" as_file="true" src_path="fonts/Orbitron-Bold.ttf" />
-		<tiny_ttf name="orbitron_bold_46" size="46" as_file="true" src_path="fonts/Orbitron-Bold.ttf" />
-		<tiny_ttf name="orbitron_semibold_48" size="48" as_file="true" src_path="fonts/Orbitron-SemiBold.ttf" />
-		<tiny_ttf
-			name="lv_font_montserrat_22"
-			size="22"
-			as_file="true"
-			src_path="fonts/Montserrat-VariableFont_wght.ttf"
+		<bin
+			name="orbitron_black_64"
+			size="64"
+			as_file="false"
+			src_path="fonts/Orbitron-Black.ttf"
+			bpp="1"
+			range="0x30-0x39"
 		/>
-		<tiny_ttf
-			name="lv_font_montserrat_32"
-			size="32"
-			as_file="true"
-			src_path="fonts/Montserrat-VariableFont_wght.ttf"
+		<bin
+			name="orbitron_black_74"
+			size="74"
+			as_file="false"
+			src_path="fonts/Orbitron-Black.ttf"
+			bpp="1"
+			range="0x30-0x39"
 		/>
-		<tiny_ttf
-			name="lv_font_montserrat_48"
+		<bin
+			name="orbitron_bold_40"
+			size="40"
+			as_file="false"
+			src_path="fonts/Orbitron-Bold.ttf"
+			bpp="1"
+			symbols="°C"
+		/>
+		<bin name="orbitron_bold_46" size="46" as_file="false" src_path="fonts/Orbitron-Bold.ttf" bpp="1" symbols="%" />
+		<bin
+			name="orbitron_semibold_48"
 			size="48"
-			as_file="true"
-			src_path="fonts/Montserrat-VariableFont_wght.ttf"
+			as_file="false"
+			src_path="fonts/Orbitron-SemiBold.ttf"
+			bpp="1"
+			range="0x41-0x5a"
 		/>
 	</fonts>
 </globals>
