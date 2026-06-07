@@ -1,0 +1,42 @@
+<component>
+	<previews>
+		<preview width="180" height="184" />
+	</previews>
+
+	<api>
+		<prop name="title" type="string" default="NONE" />
+		<prop name="usage" type="subject" default="usage1" />
+		<prop name="temp" type="subject" default="temp1" />
+	</api>
+
+	<styles>
+		<style name="style_main" height="100%" width="100%" flex_grow="1" pad_right="6" />
+
+		<style name="style_title" text_font="orbitron_semibold_48" width="100%" text_align="center" margin_top="-8" />
+
+		<style name="usage_row" width="100%" text_align="right" margin_top="-16" />
+		<style name="usage_value" text_font="orbitron_black_74" />
+		<style name="usage_symbol" text_font="orbitron_bold_46" />
+
+		<style name="temp_row" width="100%" text_align="right" margin_top="-20" />
+		<style name="temp_value" text_font="orbitron_black_64" />
+		<style name="temp_symbol" text_font="orbitron_bold_40" />
+	</styles>
+
+	<view extends="column">
+		<style name="style_main" />
+		<lv_label text="$title">
+			<style name="style_title" />
+		</lv_label>
+		<lv_spangroup>
+			<style name="usage_row" />
+			<lv_spangroup-span bind_text="$usage" style="usage_value" />
+			<lv_spangroup-span text="%" style="usage_symbol" />
+		</lv_spangroup>
+		<lv_spangroup>
+			<style name="temp_row" />
+			<lv_spangroup-span bind_text="$temp" style="temp_value" />
+			<lv_spangroup-span text="°C" style="temp_symbol" />
+		</lv_spangroup>
+	</view>
+</component>
