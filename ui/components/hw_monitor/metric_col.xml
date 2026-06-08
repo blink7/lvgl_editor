@@ -5,8 +5,8 @@
 
 	<api>
 		<prop name="title" type="string" default="NONE" />
-		<prop name="usage" type="subject" default="usage1" />
-		<prop name="temp" type="subject" default="temp1" />
+		<prop name="usage" type="subject" default="cpu_usage" />
+		<prop name="temp" type="subject" default="cpu_temp" />
 	</api>
 
 	<styles>
