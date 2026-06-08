@@ -19,6 +19,7 @@
 		<int name="gpu_usage" value="0" />
 		<int name="cpu_temp" value="0" />
 		<int name="gpu_temp" value="0" />
+		<string name="ip_address" value="0.0.0.0" />
 	</subjects>
 
 	<images>

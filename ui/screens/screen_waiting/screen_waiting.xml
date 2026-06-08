@@ -4,7 +4,10 @@
 	</previews>
 
 	<styles>
-		<style name="style_base" width="360" height="184" pad_all="4" />
+		<style name="style_base" width="360" height="184" pad_all="6" />
+		<style name="title" text_font="orbitron_bold_40" />
+		<style name="description" text_font="orbitron_regular_20" />
+		<style name="description2" text_font="orbitron_regular_14" />
 	</styles>
 
 	<view extends="lv_obj">
@@ -13,10 +16,19 @@
 
 		<row height="100%" width="100%" style_flex_track_place="center">
 			<column width="100%" style_flex_cross_place="center" style_flex_track_place="center">
-				<lv_label text="HW MONITOR" />
-				<lv_label text="Waiting for PC data..." />
-				<lv_label text="Run HwSender.exe on your PC" />
+				<lv_label text="HW MONITOR">
+					<style name="title" />
+				</lv_label>
+				<lv_label text="Waiting for PC data...">
+					<style name="description" />
+				</lv_label>
+				<lv_label text="Run HwSender.exe on your PC">
+					<style name="description2" />
+				</lv_label>
 			</column>
 		</row>
+		<lv_label bind_text="ip_address" align="bottom_right">
+			<style name="description2" />
+		</lv_label>
 	</view>
 </component>
