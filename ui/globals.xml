@@ -34,7 +34,7 @@
 			as_file="false"
 			src_path="fonts/Orbitron-Regular.ttf"
 			bpp="1"
-			range="0x30-39 0x41-0x5A 0x61-7A"
+			range="0x30-0x39,0x41-0x5a,0x61-0x7a"
 			symbols="."
 		/>
 		<bin
@@ -43,7 +43,7 @@
 			as_file="false"
 			src_path="fonts/Orbitron-Regular.ttf"
 			bpp="1"
-			range="0x30-39 0x41-0x5A 0x61-7A"
+			range="0x30-0x39,0x41-0x5a,0x61-0x7a"
 			symbols="."
 		/>
 		<bin
