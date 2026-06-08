@@ -28,6 +28,24 @@
 	<fonts>
 		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
 		<bin
+			name="orbitron_regular_14"
+			size="14"
+			as_file="false"
+			src_path="fonts/Orbitron-Regular.ttf"
+			bpp="1"
+			range="0x30-39 0x41-0x5A 0x61-7A"
+			symbols="."
+		/>
+		<bin
+			name="orbitron_regular_20"
+			size="20"
+			as_file="false"
+			src_path="fonts/Orbitron-Regular.ttf"
+			bpp="1"
+			range="0x30-39 0x41-0x5A 0x61-7A"
+			symbols="."
+		/>
+		<bin
 			name="orbitron_black_64"
 			size="64"
 			as_file="false"
