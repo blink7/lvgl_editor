@@ -20,6 +20,7 @@
 		<int name="cpu_temp" value="0" />
 		<int name="gpu_temp" value="0" />
 		<string name="ip_address" value="0.0.0.0" />
+		<string name="idle_state" value="Power is off" />
 	</subjects>
 
 	<images>
@@ -68,8 +69,8 @@
 			as_file="false"
 			src_path="fonts/Orbitron-Bold.ttf"
 			bpp="1"
-			range=""
-			symbols="°C"
+			range="0x41-0x5a,0x61-0x7a"
+			symbols=".°C"
 		/>
 		<bin
 			name="orbitron_bold_46"
